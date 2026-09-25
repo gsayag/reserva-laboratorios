@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Laboratorios</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #1f4e79;
+        }
+
+        .laboratorio {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .disponible {
+            color: green;
+            font-weight: bold;
+        }
+
+        .ocupado {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Disponibilidad de Laboratorios</h1>
+
+    <p>
+        Consulte la disponibilidad actual de los laboratorios
+        antes de realizar una reserva.
+    </p>
+
+    <div class="laboratorio">
+        <h3>Laboratorio A</h3>
+        <p>Horario: 08:00 - 10:00</p>
+        <p class="disponible">Disponible</p>
+    </div>
+
+    <div class="laboratorio">
+        <h3>Laboratorio B</h3>
+        <p>Horario: 10:00 - 12:00</p>
+        <p class="ocupado">Reservado</p>
+    </div>
+
+    <div class="laboratorio">
+        <h3>Laboratorio C</h3>
+        <p>Horario: 14:00 - 16:00</p>
+        <p class="disponible">Disponible</p>
+    </div>
+
+</div>
+
+</body>
+</html>
